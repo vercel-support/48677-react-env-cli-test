@@ -22,10 +22,13 @@ function App() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          Vercel
+          Vercel {process.env.REACT_APP_VERCEL_ENV}
         </a>
         !
       </h2>
+      <p>
+      REACT_APP_TEST_ENV_1: { process.env.REACT_APP_TEST_ENV_1 }
+      </p>
       <p>
         <a
           href="https://github.com/vercel/vercel/tree/main/examples/create-react-app"
